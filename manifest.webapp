@@ -1,0 +1,26 @@
+{
+    "version":"1.0",
+	"name": "LocateMe",
+    "description": "This app uses the HTML5 Geolocation API to retrieve your current position and plot on the map using Google Maps.",
+    "launch_path": "/map.html",
+    "icons": {
+        "16": "/images/icon_016.png",
+        "32": "/images/icon_032.png",
+        "48": "/images/icon_048.png",
+        "128": "/images/icon_128.png"
+    },
+	"developer": {
+        "name": "Romin Irani",
+        "url": "http://www.rominirani.com"
+    },
+    "default_locale": "en",
+	"type": "privileged",
+    "permissions": {
+        "geolocation": {
+            "description" : "Used to locate me"
+        },
+		"systemXHR": { 
+		    "description": "Required to make Network calls" 
+	    }
+    }
+}
